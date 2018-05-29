@@ -1,0 +1,8 @@
+<div class="card" style="width: 18rem;" *ngFor='let item of items'>
+  <div class="card-body">
+    <h5 class="card-title" style="display:inline-block">{{item.name}}</h5>
+    <fa name="plus" (click)="onClick(item)" class="clickIcon"></fa>
+    <h6 class="wishlist-price"> Price : {{item.price}}$ </h6>
+    <!-- <a href="#" class="btn btn-primary" (click)="onClick(eded);onClicked(name)">Add to wishlist</a> -->
+  </div>
+</div>

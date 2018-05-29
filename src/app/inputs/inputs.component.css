@@ -1,0 +1,13 @@
+.clickIcon {
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 10px;
+}
+.wishlist-price {
+    margin:20px 0px; 
+    margin-bottom: 30px;
+}
+
+.card{
+    margin-bottom: 20px;
+}
